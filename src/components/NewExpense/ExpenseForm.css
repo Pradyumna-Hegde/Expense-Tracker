@@ -7,25 +7,25 @@
 }
 
 .new-expense__control label {
-  color: #1e1e72;
-  font-weight: bold;
+  color: var(--color-dark);
+  font-weight: var(--bold);
   margin-bottom: 0.5rem;
   display: block;
 }
 
 .new-expense__control input {
-  color: #404042;
-  background-color: white;
+  color: var(--color-dark);
+  background-color: var(--background-white);
   font: inherit;
   padding: 0.5rem;
-  border-radius: 4px;
-  border: 1px solid #404042;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-dark);
   width: 20rem;
   max-width: 100%;
 }
 
 .new-expense__control input:active {
-  border: 1px solid #404042;
+  border: 1px solid var(--color-dark);
 }
 
 .new-expense__actions {

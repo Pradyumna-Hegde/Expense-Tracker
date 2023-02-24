@@ -3,18 +3,18 @@
   flex-direction: column;
   width: 5.5rem;
   height: 5.5rem;
-  border: 1px solid #e7ebf8;
-  color: #3a3a3a;
+  border: var(--border);
+  color: var(--color-dark);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow-md);
-  background-color: rgb(231, 235, 248);
+  background-color: var(--background-color);
   align-items: center;
   justify-content: center;
 }
 
 .expense-date__month {
   font-size: 0.8rem;
-  font-weight: bold;
+  font-weight: var(--bold);
 }
 
 .expense-date__year {
@@ -23,5 +23,5 @@
 
 .expense-date__day {
   font-size: 1.2rem;
-  font-weight: bold;
+  font-weight: var(--bold);
 }

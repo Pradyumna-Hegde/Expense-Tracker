@@ -4,8 +4,8 @@
   align-items: center;
   padding: 1rem;
   margin: 1rem 0;
-  background-color: white;
-  border: 1px solid #e7ebf8;
+  background-color: var(--background-white);
+  border: var(--border);
   box-shadow: var(--shadow-md);
 }
 
@@ -24,16 +24,16 @@
 }
 
 .expense-item h2 {
-  color: #3a3a3a;
+  color: var(--color-dark);
   flex: 1;
   margin: 0 1rem;
 }
 
 .expense-item__price {
   font-weight: bold;
-  background-color: #e7ebf8;
-  border: 1px solid #e7ebf8;
-  color: #3a3a3a;
+  background-color: var(--color-light);
+  border: var(--border);
+  color: var(--color-dark);
   padding: 0.5rem;
   border-radius: var(--border-radius);
 }
@@ -41,25 +41,25 @@
 .expense-item button {
   font-size: 1rem;
   font-weight: 600;
-  color: white;
+  color: var(--background-white);
   cursor: pointer;
   padding: 0.5rem 0.75rem;
-  border: 3px solid #404042;
-  background-color: #404042;
+  border: 3px solid var(--color-dark);
+  background-color: var(--color-dark);
   border-radius: var(--border-radius);
   margin: 0 1rem;
 }
 
 .expense-item button:hover {
-  background-color: white;
-  border-color: #404042;
-  color: #404042;
+  background-color: var(--background-black);
+  border-color: var(--background-black);
+  color: var(--background-white);
 }
 
 .expense-item button:active {
-  background-color: #404042;
-  border: 3px solid #404042;
-  color: white;
+  background-color: var(--color-dark);
+  border: 3px solid var(--color-dark);
+  color: var(--background-white);
 }
 
 @media (min-width: 580px) {
